@@ -1,4 +1,4 @@
-<button (click)="openMapView()">Map View</button>
+<button style="cursor: pointer;" (click)="openMapView()">Map View</button>
 
 <!-- Map View Modal -->
 <div class="modal" [class.show]="isMapViewOpen">
@@ -8,18 +8,24 @@
       <span class="close" (click)="closeMapView()">&times;</span>
     </div>
     <div class="modal-body">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link" [class.active]="activeTab === 'data'" (click)="setActiveTab('data')">Data</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [class.active]="activeTab === 'visualise'" (click)="setActiveTab('visualise')">Visualise</a>
-        </li>
-      </ul>
-      <div *ngIf="activeTab === 'data'">
-        <pre>{{ geoJson | json }}</pre>
+      <!-- Use flexbox to display tabs side by side -->
+      <div style="display: flex;">
+        <ul class="nav nav-tabs" style="flex: 1;">
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;" [class.active]="activeTab === 'data'" (click)="setActiveTab('data')">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;" [class.active]="activeTab === 'visualise'" (click)="setActiveTab('visualise')">Visualise</a>
+          </li>
+        </ul>
+        <div style="flex: 1;">
+          <!-- Display tab content here -->
+          <div *ngIf="activeTab === 'data'">
+            <pre>{{ geoJson | json }}</pre>
+          </div>
+          <div *ngIf="activeTab === 'visualise'" id="map" style="height: 400px;"></div>
+        </div>
       </div>
-      <div *ngIf="activeTab === 'visualise'" id="map" style="height: 400px;"></div>
     </div>
   </div>
 </div>
