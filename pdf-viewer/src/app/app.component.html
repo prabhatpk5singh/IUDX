@@ -1,0 +1,8 @@
+<button (click)="openPdfModal()">View PDF</button>
+
+<div *ngIf="modalVisible" class="modal">
+  <div class="modal-content">
+    <span class="close" (click)="closePdfModal()">&times;</span>
+    <iframe src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/templatepdf.pdf" width="100%" height="500px"></iframe>
+  </div>
+</div>
