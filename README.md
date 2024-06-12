@@ -25,3 +25,6 @@ Screenshots -
 ![map-view-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/4c47c7ea-2d07-4427-8b11-1fc9bc580601)
 
 ![map-view-3](https://github.com/prabhatpk5singh/IUDX/assets/160165462/fd79a76b-0efc-48b5-b678-535882056403)
+
+
+I still need to fix the visualise part of map view as map is coming up distorted. 
