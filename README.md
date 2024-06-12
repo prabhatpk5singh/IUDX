@@ -18,19 +18,23 @@ Screenshots -
 ----------------
 1.
  
-![Viewpdf](https://github.com/prabhatpk5singh/IUDX/assets/160165462/2c2be8eb-f3cb-45c9-ba2b-bc645293e371)
+![Viewpdf](https://github.com/prabhatpk5singh/IUDX/assets/160165462/ae56d83a-ceb9-4b7c-9e15-440f06e8de41)
+
 
 2.
 
-![Viewpdf-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/8176b252-e720-411a-ade7-364cd5c4f6ee)
+![Viewpdf-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/64a22082-1451-47c1-a61e-0f2989a021d1)
+
 
 3.
 
-![map-view](https://github.com/prabhatpk5singh/IUDX/assets/160165462/d121c093-b406-4f20-94bc-278271ff4959)
+![map-view](https://github.com/prabhatpk5singh/IUDX/assets/160165462/8960a073-8c52-4b41-8c47-a76d69177e27)
+
 
 4.
 
-![map-view-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/4c47c7ea-2d07-4427-8b11-1fc9bc580601)
+![map-view-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/32ddd218-80d5-411d-a299-141db4f7b094)
+
 
 5.
 
