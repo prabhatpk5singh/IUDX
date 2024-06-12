@@ -1,0 +1,25 @@
+<button (click)="openMapView()">Map View</button>
+
+<!-- Map View Modal -->
+<div class="modal" [class.show]="isMapViewOpen">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Map View</h2>
+      <span class="close" (click)="closeMapView()">&times;</span>
+    </div>
+    <div class="modal-body">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" [class.active]="activeTab === 'data'" (click)="setActiveTab('data')">Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [class.active]="activeTab === 'visualise'" (click)="setActiveTab('visualise')">Visualise</a>
+        </li>
+      </ul>
+      <div *ngIf="activeTab === 'data'">
+        <pre>{{ geoJson | json }}</pre>
+      </div>
+      <div *ngIf="activeTab === 'visualise'" id="map" style="height: 400px;"></div>
+    </div>
+  </div>
+</div>
