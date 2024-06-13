@@ -5,6 +5,7 @@ Projects -
 
 Steps to run the Application-
 ---------------------------------
+First and foremost thing that is required to run the application is install Node from the site and Angular using "npm i @angular/cli@latest"
 
   1. Download or clone the repository
   
