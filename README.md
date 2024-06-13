@@ -1,7 +1,7 @@
 Projects -
 ------------
-  1. Map-Visualisation
-  2. PDF-Viewer
+  1. PDF-Viewer
+  2. Map-Visualisation
 
 Steps to run the Application-
 ---------------------------------
