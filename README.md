@@ -25,18 +25,22 @@ Screenshots -
 
 ![Viewpdf-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/64a22082-1451-47c1-a61e-0f2989a021d1)
 
+3. Test Case
 
-3.Map View Button
+![TestCase-ViewPdf](https://github.com/prabhatpk5singh/IUDX/assets/160165462/97dc6229-b8a0-4812-b54e-746722294e52)
+
+
+4.Map View Button
 
 ![map-view](https://github.com/prabhatpk5singh/IUDX/assets/160165462/8960a073-8c52-4b41-8c47-a76d69177e27)
 
 
-4.Data
+5.Data
 
 ![map-view-2](https://github.com/prabhatpk5singh/IUDX/assets/160165462/32ddd218-80d5-411d-a299-141db4f7b094)
 
 
-5.Visualisation
+6.Visualisation
 
 ![map-view-3](https://github.com/prabhatpk5singh/IUDX/assets/160165462/fd79a76b-0efc-48b5-b678-535882056403)
 
