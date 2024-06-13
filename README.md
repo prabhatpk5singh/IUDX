@@ -5,6 +5,7 @@ Projects -
 
 Steps to run the Application-
 ---------------------------------
+First and foremost thing that is required to run the application is install Node from the site and Angular using "npm i @angular/cli@latest"
 
   1. Download or clone the repository
   
@@ -48,3 +49,7 @@ Screenshots -
 
 
 I still need to fix the visualise part of map view as map is coming up distorted. 
+
+7. Test Case
+
+![image](https://github.com/prabhatpk5singh/IUDX/assets/160165462/2eb2394c-41bc-4bcb-8717-cb67046debe1)
