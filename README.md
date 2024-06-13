@@ -12,7 +12,9 @@ Steps to run the Application-
   
   3. Then do npm install, All the dependency  will get installed
   
-  4. ng serve  
+  4. ng serve
+
+  5. U can test using ng test
 
 Screenshots -
 ----------------
