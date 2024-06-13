@@ -14,7 +14,7 @@ Steps to run the Application-
   
   4. ng serve
 
-  5. U can test using ng test
+  5. U can test using "ng test"
 
 Screenshots -
 ----------------
